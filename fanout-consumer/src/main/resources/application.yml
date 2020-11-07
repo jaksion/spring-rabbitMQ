@@ -1,0 +1,13 @@
+server:
+  port: 8022
+spring:
+  #ÏîÄ¿Ãû×Ö
+  application:
+    name: fanout-provider
+  #ÅäÖÃrabbitMQ
+  rabbitmq:
+    host: 116.62.155.206
+    port: 5672
+    username: guest
+    password: guest
+

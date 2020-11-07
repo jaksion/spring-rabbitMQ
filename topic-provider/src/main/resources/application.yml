@@ -1,0 +1,12 @@
+server:
+  port: 8011
+spring:
+  #ÏîÄ¿Ãû×Ö
+  application:
+    name: topic-provider
+  #ÅäÖÃrabbitMQ
+  rabbitmq:
+    host: 116.62.155.206
+    port: 5672
+    username: guest
+    password: guest
