@@ -1,0 +1,12 @@
+server:
+  port: 8032
+spring:
+  #项目名字
+  application:
+    name: ack-provider
+  #配置rabbitMQ
+  rabbitmq:
+    host: 116.62.155.206
+    port: 5672
+    username: guest
+    password: guest

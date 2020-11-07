@@ -1,0 +1,18 @@
+server:
+  port: 8031
+spring:
+  #项目名字
+  application:
+    name: ack-provider
+  #配置rabbitMQ
+  rabbitmq:
+    host: 116.62.155.206
+    port: 5672
+    username: guest
+    password: guest
+
+    #消息确认配置
+    #确认消息已经发送到交换机
+    publisher-confirm-type: correlated
+    #确认消息已发送到队列
+    publisher-returns: true

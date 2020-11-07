@@ -1,0 +1,18 @@
+server:
+  port: 8031
+spring:
+  #��Ŀ����
+  application:
+    name: ack-provider
+  #����rabbitMQ
+  rabbitmq:
+    host: 116.62.155.206
+    port: 5672
+    username: guest
+    password: guest
+
+    #��Ϣȷ������
+    #ȷ����Ϣ�Ѿ����͵�������
+    publisher-confirm-type: correlated
+    #ȷ����Ϣ�ѷ��͵�����
+    publisher-returns: true
